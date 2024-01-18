@@ -6,15 +6,19 @@ Site demo video to be attached
 ## Deployment
 The app uses local servers to host, to view the site on your device you need to clone the repository.
 In both the backend and frontend folders, run:
+
 ```
 npm install
 ```
+
 You need to add 3 lines to the .env file in backend:
+
 ```
 MONGODB_URL = ""
 PORT = 4000
 API_KEY = ""
 ```
+
 The MongoDB url needs to be the connection string for the Atlas Cluster the application will connect to.
 The Api Key needs to be a private key linked with an apiNinjas free account.
 There are no dummy values provided for these.
