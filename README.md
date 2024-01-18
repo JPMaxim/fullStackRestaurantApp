@@ -5,15 +5,20 @@ Site demo video to be attached
 
 ## Deployment
 The app uses local servers to host, to view the site on your device you need to clone the repository.
-Run npm install in both the backend and frontend folders.
+In both the backend and frontend folders, run:
+```
+npm install
+```
 You need to add 3 lines to the .env file in backend:
-    MONGODB_URL = ""
-    PORT = 4000
-    API_KEY = ""
-  The MongoDB url needs to be the connection string for the Atlas Cluster the application will connect to.
-  The Api Key needs to be a private key linked with an apiNinjas free account.
-  There are no dummy values provided for these.
-Then run 'npm run dev' in backend, and run 'npm start' in frontend.
+```
+MONGODB_URL = ""
+PORT = 4000
+API_KEY = ""
+```
+The MongoDB url needs to be the connection string for the Atlas Cluster the application will connect to.
+The Api Key needs to be a private key linked with an apiNinjas free account.
+There are no dummy values provided for these.
+Then in backend run: ```npm run dev``` and in frontend, run: ```npm start```
 
 ## Brief
 The brief was to create a Full Stack Web Application using the MERN stack. Implementing what we had learnt throughout the course on each element of the Stack.
